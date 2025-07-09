@@ -23,7 +23,7 @@ class Main {
                 }
             }
         }
-          int [] maxSubArray = Arrays.copyOfRange(nums,startIndex, startIndex + 3);
+          int [] maxSubArray = Arrays.copyOfRange(nums,startIndex, startIndex + k);
             return maxSubArray;
      
     }
