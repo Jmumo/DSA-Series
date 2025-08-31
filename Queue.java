@@ -1,4 +1,3 @@
-// Use this editor to write, compile and run your Java code online
 import java.util.*;
 class Main {
     public static void main(String[] args) {
@@ -16,5 +15,8 @@ class Main {
         
         //peek gets the first element withoutb removing it
         System.out.println(queue.peek());
+        
+        //check if a certain fiqure is contained in queue
+         System.out.println(queue.contains("wayua"));
     }
 }
